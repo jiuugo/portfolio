@@ -4,7 +4,7 @@ const cambiarTraduccion = document.getElementById("cambiarTraduccion");
 let translations = {};
 let idiomaActual = "es";
 
-fetch('translations/translations.json')
+fetch('../translations/translations.json')
     .then(response => response.json())
     .then(data => {
         translations = data;
@@ -25,9 +25,9 @@ function setLanguage(lang) {
     updateTexts(lang);
 }
 
-cambiarTraduccion.addEventListener("click", ()=>{
-    if(idiomaActual==="es"){
+cambiarTraduccion.addEventListener("click", () => {
+    if (idiomaActual === "es") {
         setLanguage("en");
 
-    }else setLanguage("es")
+    } else setLanguage("es")
 });
