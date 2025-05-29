@@ -10,7 +10,11 @@
         "presentacion": "Presentación",
         "txtPresentacion": "Soy Hugo Suárez, estudiante de Desarrollo de Aplicaciones Web. Me apasiona crear soluciones innovadoras combinando lógica, creatividad y tecnología. Busco constantemente nuevos retos para mejorar mis habilidades y aportar valor a cada proyecto en el que participo.",
         "educacion": "Educación",
-        "txtEducacion": "Técnico Superior de primer año en Desarrollo de Aplicaciones Web"
+        "txtEducacion": "Técnico Superior de primer año en Desarrollo de Aplicaciones Web.",
+        "habilidades": "Habilidades",
+        "txtHabilidades": "Java EJEMPLO",
+        "contacto": "Contacto",
+        "txtContacto": "Email: EJEMPLO"
     },
     "en": {
         "title": "Hugo Suárez",
@@ -23,6 +27,10 @@
         "presentacion": "Personal statement",
         "txtPresentacion": "I am Hugo Suárez, a Web Application Development student. I am passionate about creating innovative solutions by combining logic, creativity, and technology. I am constantly seeking new challenges to improve my skills and add value to every project I participate in.",
         "educacion": "Education",
-        "txtEducacion": "1st year Higher Technician in Web Application Development"
+        "txtEducacion": "1st year Higher Technician in Web Application Development.",
+        "habilidades": "Skills",
+        "txtHabilidades": "Java EXAMPLE",
+        "contacto": "Contact",
+        "txtContacto": "Email: EXAMPLE"
     }
 }
