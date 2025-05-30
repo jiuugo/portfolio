@@ -79,6 +79,20 @@ nav {
 
 }
 
+.contenedorProyectos{
+    width: 800px;
+}
+
+.oculto {
+    background-color: transparent;
+}
+
+.cajaApartado {
+    background-color: white;
+    padding: 50px;
+    box-shadow: 10px 20px 24px rgba(0, 0, 0, 0.6);
+}
+
 .contenido {
     text-align: justify;
     margin: 1rem auto 2rem;
@@ -95,7 +109,7 @@ a:visited {
 
 #contenedorProyectos {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 
@@ -105,13 +119,21 @@ a:visited {
     width: 100%;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 900px) {
     #contenedorProyectos {
         grid-template-columns: 1fr;
     }
 
     #contenedorProyectos img {
         width: 100%;
+    }
+
+    .cajaApartado {
+        padding: 6vw;
+    }
+    .contenidoPrincipal{
+        margin: 50px auto;
+        width: 50vw;
     }
 }
 
