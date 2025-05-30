@@ -93,11 +93,47 @@ a:visited {
     color: inherit;
 }
 
-#contenedorProyectos{
+#contenedorProyectos {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
 }
 
-#contenedorProyectos img{
-    width: 40%;
+#contenedorProyectos img {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+
+@media (max-width: 650px) {
+    #contenedorProyectos {
+        grid-template-columns: 1fr;
+    }
+
+    #contenedorProyectos img {
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+
+    nav {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #navbar1 {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+    #navbar2 {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 0;
+    }
 }
