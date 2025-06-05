@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Jiuugo</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecera">
+        <div id="banner">
+            <div id="titulo">
+                <div id="title"></div>
+                <div id="description"></div>
+            </div>
+
+            <button id="cambiarTraduccion"></button>
+        </div>
+        <nav>
+            <a href="../index.html" class="opcionNavbar" id="navbar1"></a>
+            <a href="proyectos.html" class="opcionNavbar" id="navbar2"></a>
+            <button id="cambiarTraduccion2" class="opcionNavbar"></button>
+        </nav>
+    </header>
+
+    <main class="contenidoPrincipal oculto cadaProyecto">
+        <div class="cajaApartado">
+            <h1 id="memorion"></h1>
+            <div class="contenido">
+                <p id="descMemorion"></p>
+                <ul>
+                    <li id="caracteristica1Memorion"></li>
+                    <li id="caracteristica2Memorion"></li>
+                    <li id="caracteristica3Memorion"></li>
+                </ul>
+                <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; margin: 2rem 0;">
+                    <img src="../img/img proyectos/memorion1.png" alt="Captura de Memorion en ejecución"
+                        style="max-width: 400px; border-radius: 10px; box-shadow: 0 4px 16px rgba(0,0,0,0.15);">
+                    <img src="../img/img proyectos/memorion2.png" alt="Captura de Memorion en ejecución"
+                        style="max-width: 400px; border-radius: 10px; box-shadow: 0 4px 16px rgba(0,0,0,0.15);">
+                    <img src="../img/img proyectos/memorion3.png" alt="Captura de Memorion en ejecución"
+                        style="max-width: 400px; border-radius: 10px; box-shadow: 0 4px 16px rgba(0,0,0,0.15);">
+                </div>
+                <a id="enlaceMemorion" href="https://jiuugo.github.io/Memorion-D/" target="_blank" rel="noopener"
+                    style="display: inline-block; background: #008f66; color: white; padding: 12px 24px; border-radius: 8px; font-weight: bold; text-decoration: none; transition: background 0.2s;"></a>
+            </div>
+            <a href="proyectos.html" class="opcionNavbar"
+                style="display:inline-block; margin-top:2rem; background:#008f66; color:white; padding:10px 20px; border-radius:8px; font-weight:bold; text-decoration:none; transition:background 0.2s;">⟵
+                <span id="volverProyectos"></span></a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <span id="footerCopyright"></span>
+            <span class="footer-links">
+                <a href="https://github.com/jiuugo" target="_blank" rel="noopener" aria-label="GitHub">
+                    <img src="../img/icons/github/github-mark-white.png" alt="GitHub" class="footer-icon">
+                </a>
+                <a href="https://www.linkedin.com/in/hugosuarezzz/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <img src="../img/icons/linkedin/InBug-White.png" alt="LinkedIn" class="footer-icon">
+                </a>
+            </span>
+        </div>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
